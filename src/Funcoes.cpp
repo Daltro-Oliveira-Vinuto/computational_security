@@ -69,6 +69,7 @@ void Run(Vigenere* vigenere) {
 
 						std::cout << "Choose one of key sizes bellow:" << std::endl;
 
+						std::cout << "Length : Frequency" << std::endl;
 						for(unsigned i = 0; i < factors.size(); i++) {
 							std::cout << i+2 << " : " << factors[i] << std::endl;
 						}
