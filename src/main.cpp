@@ -1,3 +1,5 @@
+//Author: Daltro Oliveira Vinuto; mat: 160025966.
+
 #include <iostream>
 #include <string>
 #include <unordered_map>
@@ -14,8 +16,8 @@ int main(int argc, char **argv) {
 
 	Load(argc, argv, plainPath, hiddenPath, language);
 
-	std::cout << plainPath << " , " << hiddenPath << " , ";
-	std::cout << language << " , " << std::endl;
+	//std::cout << plainPath << " , " << hiddenPath << " , ";
+	//std::cout << language << " , " << std::endl;
 	
 	Vigenere* vigenere = new Vigenere(plainPath, hiddenPath, key, language);
 
